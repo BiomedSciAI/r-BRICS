@@ -1,5 +1,5 @@
 # r-BRICS – a revised BRICS module that breaks ring structures and carbon chains
-![toc](https://media.github.ibm.com/user/175546/files/f736d98c-933a-4891-be89-b03b21817d0e)
+![toc](https://github.com/BiomedSciAI/r-BRICS/blob/main/toc.jpg)
 
 Figure 1. An example of using r-BRICS using lanostane.
 

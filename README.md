@@ -15,7 +15,7 @@ rdkit >= 2022.09.5
 We recommend to use miniconda with python 3.6+.
 
 ## Example
-First, rdkit and r-BRICS need to be imported. Simply put ```reBRICS_public.py``` in your workfolder to use it (or python library folder).
+First, rdkit and r-BRICS need to be imported. Simply put ```rBRICS_public.py``` in your workfolder to use it (or python library folder).
 ```
 from rdkit import Chem
 from rdkit.Chem import AllChem

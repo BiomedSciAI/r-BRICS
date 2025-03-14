@@ -667,12 +667,13 @@ def rBRICSDecompose(mol,allNodes=None,minFragmentSize=1,onlyUseReactions=None,
             seqOk=True
             # we want to disqualify small fragments, so sort the product sequence by size
             prodSeq = [(prod.GetNumAtoms(onlyExplicit=True),prod) for prod in prodSeq]
-            print(prodSeq)
+            #print(prodSeq)
             prodSeq.sort(key=lambda y: y[0])
             for nats,prod in prodSeq:
               try:
                 Chem.SanitizeMol(prod)
               except:
+                seqOk=False #Issue 1
                 continue
               pSmi = Chem.MolToSmiles(prod,1)
               if minFragmentSize>0:

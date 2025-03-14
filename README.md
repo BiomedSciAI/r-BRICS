@@ -20,7 +20,7 @@ First, rdkit and r-BRICS need to be imported. Simply put ```reBRICS_public.py```
 from rdkit import Chem
 from rdkit.Chem import AllChem
 from rdkit.Chem import Draw
-from reBRICS_public import *
+from rBRICS_public import *
 import rdkit
 ```
 (1) POPC, as shown in publication
